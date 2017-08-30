@@ -5,10 +5,9 @@
 # by Can Yalçın
 # only for legal purpose
 
-
 from queue import Queue
 from optparse import OptionParser
-import time,sys,socket,threading,logging,urllib.request,random
+import time, sys, socket, threading, logging, urllib.request, random
 
 def user_agent():
 	global uagent
@@ -24,7 +23,7 @@ def user_agent():
 
 
 def my_bots():
-	global bots
+	bots
 	bots=[]
 	bots.append("http://validator.w3.org/check?uri=")
 	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
